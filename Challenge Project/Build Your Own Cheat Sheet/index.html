@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>My Cheat Sheet</title>
+    <link href="recourses\CSS\styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Cheat Sheet</h1>
+            <ul>
+                <li><embed src="./recourses/CSS/GIFs/sesame-street-rosita.gif" width="60px" height="60px"><a href= "#firstpart">HTML part</a></li>
+                <li><embed src="./recourses/CSS/GIFs/sesame-street-oscar-the-grouch.gif" width="60px" height="60px"><a href= "#secondpart">CSS Part</a></li>
+                <li><embed src="./recourses/CSS/GIFs/elmo-sesame-street.gif" width="60px" height="60px"><a href="#thirdpart">How does the domain work?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="part1">
+            <h2 class="mainparts" id="firstpart">HTML part</h2>
+            <h3 class="subtitle">Some Concepts</h3>
+            <ol>
+                <li>
+                    <p>HTTP <span><a href="https://en.wikipedia.org/wiki/HTTP" target="_blank">(Hypertext transfer protocol)</a></span> is a standartized set of rules for how browsers and servers tranfer data to one another.</p>
+
+                </li>
+                <li>
+                    <h4>Examples of HTTP statuses:</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Number of status</th>
+                                <th>Explanation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">200</td>
+                                <td>The request has succeeded</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">301</td>
+                                <td>The resource has been moved and the client is being redirected</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">404</td>
+                                <td>The requested resource was not found</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">505</td>
+                                <td>The server encountered an unexpected error</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    <p><span style="font-weight: bold; font-size: 20px;">Way of working:</span><br> The client makes the request and browser sends it to server <span style="font-size: 25px; font-weight: bold;">&rarr;</span> Server send HTTP which is contains CSS with styles <span style="font-size: 25px; font-weight: bold;">&rarr;</span> Browser request CSS <span style="font-size: 25px; font-weight: bold;">&rarr;</span> Server send it <span style="font-size: 25px; font-weight: bold;">&rarr;</span> Browser apply CSS styles to the webpage</p>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h3 class="subtitle">HTML structure:</h3>
+            <h4 id="htmlelement">HTML element</h4>
+            <div class="element">
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">&lt;p&gt;</a>
+                <p>Hello World!</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">&lt;/p&gt;</a>
+            </div>
+        </div>
+        <div class="boxmodel">
+            <h2 class="mainparts" id="secondpart">CSS part</h2>
+            <h3 class="subtitle">Box Model</h3>
+            <div class="margin">
+                <p id="margin">Margin</p>
+                <p id="border">Border</p>
+                <p id="padding">Padding</p>
+                <p id="content">Content</p>
+            </div>
+        </div>
+        <div>    
+            <h2 class="mainparts" id="thirdpart">Git Bash</h2>
+            <div class="one">
+                <p>block1</p>
+            </div>
+            <div class="two">
+                <p>block2</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

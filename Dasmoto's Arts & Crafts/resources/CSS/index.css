@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: 10px auto;
+    background-color: rgb(235, 210, 180);
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('./img/pattern.jpeg');
+    margin: 50px 0;
+  }
+  
+  div h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #head1 {
+    background-color: mediumspringgreen;
+  }
+
+  #head2 {
+    background-color: lightcoral;
+  }
+
+  #head3 {
+    background-color: skyblue;
+  }
+
+  span {
+    font-weight: bold;
+    color:blue;
+  }

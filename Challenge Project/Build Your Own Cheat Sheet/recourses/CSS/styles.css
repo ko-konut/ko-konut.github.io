@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(250, 65%, 72%);
+    font-family: 'Nerko One', serif;
+}
+
+body {
+    background-image: linear-gradient(hsl(278, 75%, 75%), rgb(51, 58, 84));
+    width: 1000px;
+    margin: 50px auto; 
+    border: 2px solid #000;  
+}
+
+header h1 {
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    text-shadow: 0.07em 0.07em 0.05em white;
+    z-index: 1;
+    background-color: transparent;
+}
+
+header h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./pictures/h1.avif);
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+header ul {
+    margin: 40px 20px 0 20px;
+    padding: 0;
+}
+
+header li {
+    display: flex;
+    height: 60px;
+    width: max-content;
+    padding: 10px 10px 10px 0;
+    margin: 10px 0;
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 40px;
+    align-items: center;
+    background-color: hsl(277, 61%, 90%);
+}
+
+header li a {
+    text-decoration: none;
+    color: #050404;
+}
+
+header li a:hover {
+    text-decoration: none;
+    color: #050404;
+    text-shadow: 1px 1px 2px rgb(255, 0, 128), 0 0 0.5em rgb(0, 255, 187), 0 0 0.2em blue;
+}
+
+header embed {
+    margin-right: 10px;
+    border: 2px solid #000;
+    border-radius: 100%;
+}
+
+main div {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h3, h4 {
+    margin: 0;
+}
+
+.mainparts {
+    width: max-content;
+    padding: 0 5px;
+    text-shadow: 1px 1px 2px rgb(255, 0, 128), 0 0 0.5em rgb(0, 255, 187), 0 0 0.2em blue;
+    font-size: 40px;
+    background-image: radial-gradient(rgb(0, 255, 187) 0%, hsl(278, 75%, 75%) 80%);
+    border: 3px dashed pink;
+    border-radius: 15px;
+}
+
+.subtitle {
+    margin-left: 15px;
+    font-size: 30px;
+    text-decoration: underline black;
+}
+
+.part1 {
+    font-size: 20px;
+}
+
+.part1 span a:hover {
+    color: #0856ff;
+}
+
+table {
+    margin-top: 20px;
+    position: relative;
+    left: 110px;
+    border-collapse: collapse;
+    border: 3px solid #000;
+}
+
+th, td {
+    margin: 0;  
+    padding: 5px 8px;
+    border: 1px solid #000;
+}
+
+th {
+    text-align: center;
+    background-color: rgb(129, 37, 176);
+    border: 3px solid #000;
+}
+
+td[scope="row"] {
+    text-align: center;
+}
+
+#htmlelement {
+    text-align: center;
+    font-size: 30px;
+}
+.element {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 30px;
+    left: 338px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-style: solid solid none;
+}
+
+.margin {
+    position: relative;
+    width: 400px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+#margin {
+    position: absolute;
+    padding: 0 300px 200px 5px;
+    left: 22px;
+    background-color: orange;
+    border: 3px dashed black;
+}
+
+#border {
+    position: absolute;
+    padding: 0 250px 150px 5px;
+    top: 27px;
+    left: 47px;
+    background-color: rgb(165, 163, 159);
+    border: 2px solid black;
+}
+
+#padding {
+    position: absolute;
+    padding: 0 200px 100px 5px;
+    top: 55px;
+    left: 70px;
+    background-color: rgb(64, 183, 92);
+    border: 2px dashed black;
+}
+
+#content {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    padding: 0 160px 55px 5px;
+    background-color: rgb(38, 31, 236);
+    border: 1px solid black;
+}
